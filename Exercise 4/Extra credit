@@ -1,0 +1,13 @@
+# ex4.rb:8:in `<main>': undefined local variable or method `car_pool_capacity' for main:Object (NameError)
+
+this means that there is an error on line number 8 of ex4.rb. The error is car_pool_capacity is a variable which doesn't exist
+
+## More extra credit
+
+1. Using 4.0 is _not_ neccessary in this case - it just turns the result into a float, but the calculation results in a whole number, so the floating put isn't needed. Changing it to 4 instead of 4.0 will change the result to be an int instead of float, but it's value will remain the same.
+
+2. A floating point number is a representation of a decimal number inside digital machines. They are not 100% accurate and can lead to problems in precise calculations. For more information see <http://en.wikipedia.org/wiki/Floating_point#Accuracy_problems>
+
+3-6. Trivial ;)
+
+
